@@ -82,3 +82,10 @@ body {
     color:var(--darkGrey-color);
     cursor: url("../img/handcursor.svg"), pointer;
 }
+
+
+@media screen and (max-width:1440px){
+  .card{
+    width: 97vw;
+  }
+}
