@@ -74,4 +74,11 @@ body {
   width: 21.4em;
   height: 3.43em;
   margin-bottom: var(--spacing-16);
+  transition: background-color 0.3s ease-in-out ;
+}
+
+.linkbutton:hover{
+    background-color:var(--green-color);
+    color:var(--darkGrey-color);
+    cursor: url("../img/handcursor.svg"), pointer;
 }
