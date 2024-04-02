@@ -1,0 +1,70 @@
+@import url(./variables.css);
+@import url(./normalize.css);
+
+body {
+  background-color: var(--offBlack-color);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 385px /*26.74vw*/;
+  height: auto;
+  background-color: var(--darkGrey-color);
+  border-radius: 16px;
+  padding: var(--spacing-40);
+}
+
+.card__avatar-img {
+  width: 96px;
+  border-radius: 100%;
+  margin-bottom: var(--spacing-30);
+}
+
+.card__title {
+  font-family: var(--base-font);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-title);
+  color: var(--white-color);
+  margin-bottom: var(--spacing-18);
+}
+
+.card__location {
+  font-family: var(--base-font);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-paragraph);
+  color: var(--green-color);
+  margin-bottom: var(--spacing-30);
+}
+
+.card__description {
+  font-family: var(--base-font);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-paragraph);
+  color: var(--white-color);
+  margin-bottom: var(--spacing-24);
+}
+
+.card__linkbuttons {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16);
+  width: 100%;
+}
+
+.linkbutton {
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weight-bold);
+  padding: var(--spacing-18);
+  color: var(--white-color);
+  background-color: var(--grey-color);
+  border: none;
+  border-radius: 8px;
+}

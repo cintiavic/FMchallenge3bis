@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root{
+
+    /*COLOR PALETTE*/
+    --green-color: #c4f82a;
+    --white-color:#ffffff;
+    --grey-color:#333333;
+    --darkGrey-color:#1e1e1e;
+    --offBlack-color:#141414;
+
+    /*FONT SIZES*/
+    --base-font:"Inter", sans-serif;
+
+    --font-weight-regular:400;
+    --font-weight-semiBold:600;
+    --font-weight-bold:700;
+
+    --font-size-title: 1.5rem;
+    --font-size-paragraph:0.875rem;
+
+    /*SPACINGS*/
+
+    --spacing-40: 2.5rem;
+    --spacing-30: 1.875rem;
+    --spacing-24: 1.5rem;
+    --spacing-18:1.125rem;
+    --spacing-16: 1rem;
+}
