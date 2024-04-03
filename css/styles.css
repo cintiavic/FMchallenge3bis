@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 24em;
-  height: 38.25em;
+  height: 37em;
   background-color: var(--darkGrey-color);
   border-radius: var(--spacing-16);
 
